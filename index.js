@@ -1,6 +1,4 @@
-const ogArr = [1, 2, 3, 4, 5, 6];
-
-number = process.argv[2]
+const ogArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const adjArr = (arr, number) => {
   //Convert the array to an object
@@ -22,7 +20,14 @@ const adjArr = (arr, number) => {
     };
   }, {});
 
-  const theGoodGood = Object.values(arrObj);
+  return Object.values(arrObj);
 
-  console.log("Re-arranged array: ", theGoodGood);
+
 };
+
+console.log('1: ', adjArr(ogArr, 1))
+console.log('-1: ', adjArr(ogArr, -1))
+console.log('2: ', adjArr(ogArr, 2))
+console.log('9: ', adjArr(ogArr, 9))
+console.log('420: ', adjArr(ogArr, 420));
+console.log('-69: ', adjArr(ogArr, -69));
