@@ -1,0 +1,13 @@
+{
+  "name": "arraySwapExercise",
+  "version": "1.0.0",
+  "description": "A function to change the position of items by a numerical argument",
+  "main": "index.js",
+  "repository": "git@github.com:aplomBomb/weekendWorkout2.git",
+  "author": "aplombomb <seizethesteez@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}
